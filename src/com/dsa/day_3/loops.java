@@ -1,4 +1,4 @@
-package com.dsa.loops;
+package com.dsa.day_3;
 
 import java.util.Scanner;
 
