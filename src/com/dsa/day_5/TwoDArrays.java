@@ -38,7 +38,7 @@ public class TwoDArrays {
 			for(int c=0;c<arr[r].length;c++) {
 				
 				arr[r][c]=in.nextInt();
-			}
+			}			
 		}
 		
 for(int r=0;r<arr.length;r++) {
