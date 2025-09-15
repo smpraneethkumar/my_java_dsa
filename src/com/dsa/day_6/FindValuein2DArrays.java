@@ -12,7 +12,7 @@ public class FindValuein2DArrays {
 				{27,46,58}
 		};
 		
-		int traget = 8;
+		int traget = 48;
 		
 		int asw = SearchValuesInDArrays(arr,traget);
 
@@ -26,15 +26,20 @@ public class FindValuein2DArrays {
 		}
 		
 		for(int r= 0;r<arr.length;r++) {
-			
+//			System.out.println("row"+ r);
 			
 			for(int c =0;c<arr[r].length;c++) {
+				
+//				System.out.println("col" + c);
 				 
 				int col = arr[r][c];
 				
 				if(col == traget) {
 					return c;
+					
+					
 				}
+				
 				
 			}
 		}
