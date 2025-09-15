@@ -34,6 +34,7 @@ public class FindValuein2DArrays {
 				 
 				int col = arr[r][c];
 				
+					
 				if(col == traget) {
 					return c;
 					
