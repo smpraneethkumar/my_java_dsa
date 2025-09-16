@@ -13,7 +13,7 @@ public class FindMinValuein2DArrays {
 		System.out.println(min2d(arr));
 	}
 	
-	 public static int min2d(int[][] array) {
+	static int min2d(int[][] array) {
 		
 		int ans = array[0][0];
 		
