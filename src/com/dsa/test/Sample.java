@@ -6,21 +6,26 @@ public class Sample {
 	 		
 	 		int a[] = {12,345,2,6,7869};
 	 		
-	 		findNumber(a);
-	 			
+	 		
+	 			System.out.println(dd(a));
 	 		}
-	 	
-	 	
-	 	static int findNumber(int [] a)  {
+	 	static int dd(int []a) {
 	 		
+//	 		int ans = 0;
 	 		
-	 		 int court =0;
-	 		 
-	 		 for(int i: a) {
-	 			 
-	 			 if 
-	 		 }
-	 		 return court;
+	 		int start = 0;
+	 		int end = a.length;
 	 		
+	 		int mid = start +end;
+	 		
+	 		return mid;
 	 	}
+	 	
+	 	
+	 	
+	 		
+	 		
+	 		
+	 		 
+	 		 
 }
