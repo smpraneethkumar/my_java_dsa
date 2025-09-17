@@ -7,6 +7,7 @@ public class Sample {
 	 		int a[] = {12,345,2,6,7869};
 	 		
 	 		
+	 		System.out.println(12>4);
 	 			System.out.println(dd(a));
 	 		}
 	 	static int dd(int []a) {
