@@ -12,8 +12,8 @@ public class Functions {
 	
 	static void greet (String name) {
 		
-		System.out.println(name);
 		name = "ankit";
+		System.out.println("in side the funcation "+name);
 	}
 
 }
