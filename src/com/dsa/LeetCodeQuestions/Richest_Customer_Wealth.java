@@ -17,12 +17,13 @@ public class Richest_Customer_Wealth {
 	
 	static int maximumWealth(int[][] accounts) {
 		
-		for( int account = 0;account<accounts.length;account++) {
-			
-			for( int person = 0;person< accounts[account].length;person++) {
-				
-				
-			}
+//		for( int account = 0;account<accounts.length;account++) {
+//			
+//			for( int person = 0;person< accounts[account].length;person++) {
+//				
+		
+//				
+//			}
 		}
 	}
 

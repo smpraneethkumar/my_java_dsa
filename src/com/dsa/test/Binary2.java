@@ -4,8 +4,12 @@ public class Binary2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 int[] arr = {1,2, 3, 5, 9, 14, 16, 18};
-	        int target = 1;
+		 int[] arr = {2, 3, 5, 9, 14, 16, 18};
+		 
+		 char[] isdd = {'k','j','u','o'};
+		 
+		 char oo= 'f';
+	        int target = 15;
 	        int ans = floor(arr, target);
 	        System.out.println(ans);
 	}
