@@ -15,7 +15,7 @@ public class ColNotFixed {
 			
 			for(int col=0; col<arr[row].length;col++) {
 				
-				System.out.println(arr[row][col]+ "");
+				System.out.print(arr[row][col]+ "");
 			}
 			System.out.println();
 		}

@@ -22,14 +22,14 @@ public class Print_primes {
             }
         }
 		
-		int a =10;
-		
-		
-		{
-			a= 100;
-			System.out.println(a);
-		}
-		System.out.println(a);
+//		int a =10;
+//		
+//		
+//		{
+//			a= 100;
+//			System.out.println(a);
+//		}
+//		System.out.println(a);
 	}
 
 }

@@ -7,7 +7,6 @@ public class Defanging_an_IP_Address_1108 {
 		
 		String address = "1.1.1.1";
 		
-		System.out.println(address.charAt(1));
 		
 		String ans = "";
 		

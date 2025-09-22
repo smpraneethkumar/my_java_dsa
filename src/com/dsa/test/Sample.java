@@ -9,7 +9,8 @@ public class Sample {
 	 		
 	 		System.out.println(12>4);
 	 			System.out.println(dd(a));
-	 		}
+	 			
+	 	}
 	 	static int dd(int []a) {
 	 		
 //	 		int ans = 0;
@@ -20,6 +21,9 @@ public class Sample {
 	 		int mid = start +end;
 	 		
 	 		return mid;
+	 		
+	 		
+	 		
 	 	}
 	 	
 	 	

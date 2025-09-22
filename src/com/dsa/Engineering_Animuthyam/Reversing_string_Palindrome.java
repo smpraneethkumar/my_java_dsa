@@ -45,7 +45,7 @@ public class Reversing_string_Palindrome {
 //		}
 		
 		
-		int num = 89;
+		int num = 12;
         String binary = "";
 
         while (num > 0) {
