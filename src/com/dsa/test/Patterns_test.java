@@ -39,6 +39,21 @@ public class Patterns_test {
 			}
 			System.out.println();
 		}
+		
+		
+		
+//		
+//		for(int i =0;i<r6;i++) {
+//			for(int j=0;j<c6;j++) {
+//				
+//				if(i==0|| j==0||i==4||j==6|| i==r6-1) {
+//					System.out.print("*");
+//				}else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
 
 	}
 }
