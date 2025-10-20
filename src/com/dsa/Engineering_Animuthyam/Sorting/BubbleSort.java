@@ -15,7 +15,7 @@ public class BubbleSort {
 			for(int j =0;j<arr.length-i-1;j++) {
 				
 //				System.out.println(arr[j]+"dffdf");
-				if(arr[j]<arr[j+1]) {
+				if(arr[j]>arr[j+1]) {
 					int temp = arr[j];
 //					System.out.println(temp);
 					arr[j] = arr[j+1];
