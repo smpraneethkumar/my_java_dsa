@@ -7,16 +7,15 @@ public class HashMape_EA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		HashMap <Integer,Integer> has =new  HashMap<>();
+		HashMap <String,Integer> has =new  HashMap<>();
 		
-		int arr[] = {1,5,8,0,1,8,1,5,1};
+		String arr[] = {"praneeth","ankit","praneeth","harsha","harsha"};
 		
 		for(int i =0;i<arr.length;i++) {
 			
-			int n = arr[i];
+			String n = arr[i];
 			
 			if(has.containsKey(n)) {
-				 
 				int per= has.get(n);
 				has.put(n, per+1);
 			}else {
@@ -26,7 +25,7 @@ public class HashMape_EA {
 //			System.out.println(has.get(n));
 		}
 		
-		for(int Boom:has.keySet()) {
+		for(String Boom:has.keySet()) {
 			System.out.println(Boom+" " +has.get(Boom));
 		}
 		
