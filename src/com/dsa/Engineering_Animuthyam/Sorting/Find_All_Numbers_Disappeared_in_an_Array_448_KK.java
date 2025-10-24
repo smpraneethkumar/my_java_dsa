@@ -14,8 +14,8 @@ public class Find_All_Numbers_Disappeared_in_an_Array_448_KK {
 		// TODO Auto-generated method stub
 		
 		int nums [] = {4,3,2,7,8,2,3,1};
-		sort(nums);
-		System.out.println(Arrays.toString(nums));
+//		sort(nums);  
+		System.out.println(sort(nums));
 
 	}
 	
@@ -40,9 +40,12 @@ public class Find_All_Numbers_Disappeared_in_an_Array_448_KK {
 		for(int j =0;j<nums.length;j++) {
 			
 			if(nums[j] != j+1) {
-					ans.add(nums[i]);
+					ans.add(j+1);
 			}
+			
 		}
+		System.out.println(ans.get(0));
+			System.out.println(ans.get(1));
 		return ans;
 	}
 	

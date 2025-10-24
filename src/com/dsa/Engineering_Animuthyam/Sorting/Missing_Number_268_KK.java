@@ -14,7 +14,7 @@ public class Missing_Number_268_KK {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int arr [] = {3,0,1};
+		int arr [] = {7,0,1};
 		
 		
 		
