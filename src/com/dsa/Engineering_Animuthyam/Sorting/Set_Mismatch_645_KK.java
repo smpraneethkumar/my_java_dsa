@@ -10,7 +10,7 @@ public class Set_Mismatch_645_KK {
 			sort(nums);
 			System.out.println(Arrays.toString(nums));
 			
-			System.out.println(sort(nums));
+	
 	}
 	
 	public static int[] sort(int [] nums) {
