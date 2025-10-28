@@ -2,6 +2,7 @@ package com.dsa.day_4;
 
 public class Print_primes {
 
+
 	public static void main(String[] args) {
 	
 		
