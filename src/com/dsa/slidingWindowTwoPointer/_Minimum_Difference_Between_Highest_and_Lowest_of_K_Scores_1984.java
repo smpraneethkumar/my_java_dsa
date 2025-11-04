@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class _Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores_1984 {
 
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
