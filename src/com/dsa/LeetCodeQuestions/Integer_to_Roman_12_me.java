@@ -7,26 +7,30 @@ public class Integer_to_Roman_12_me {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		HashMap <Character ,Integer> has =new  HashMap<>();
+		int num = 3749;
 		
-		has.put('I', 1);
-		has.put('X', 10);
+		System.out.println(intToRoman(num));
 		
-		int ans = has.get('I') + has.get('X');
-		
-		System.out.println(ans);
-		
-		System.out.println(has.get('I'));
-		
-int[] nums = {10, 100, 1000, 1020, 3050};
-        
-        for (int i = 0; i < nums.length; i++) {
-            String str = String.valueOf(nums[i]);   // convert number to string
-            str = str.replace("0", "");             // remove zeros
-            int result = Integer.parseInt(str);     // back to integer
-            System.out.println(nums[i] + " → " + result);
-        }
 
 	}
+	
+	 public  static String intToRoman(int num) {
+	        
+	        int val[]= {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+	        String symbol[] = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+
+	        StringBuilder roman = new StringBuilder();
+
+	        for(int i =0;i<val.length;i++){
+
+	            while(num >= val[i]){
+
+	                num = num - val[i];
+	                roman.append(symbol[i]);
+	            }
+
+	        }
+	        return roman.toString();
+	 }
 
 }
