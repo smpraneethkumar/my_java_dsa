@@ -2,7 +2,7 @@ package com.dsa.LeetCodeQuestions;
 
 import java.util.HashMap;
 
-public class Roman_to_Integer_13_me {
+public class Integer_to_Roman_12_me {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
